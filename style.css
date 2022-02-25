@@ -54,22 +54,17 @@ body {
 }
 
 
-@media only screen and  (min-width: 300px){
-  body {
-   font-size: 20px;
-  }
+@media only screen and  (max-width: 650px){
   .grid {
     width:100vw;
     min-height:100vh;
     background-color: yellow;
     grid-template-columns: 21% 21% 21% 21%;
     grid-template-rows: repeat(8,12%);
-    /* justify-content: center; */
     padding-top: 20px;
-    font-size: 2rem;
   }
   .out {
     padding: 10px;
-    font-size: 22px;
+    height: 75px;
   }
 }
