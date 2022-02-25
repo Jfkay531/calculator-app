@@ -55,6 +55,9 @@ body {
 
 
 @media only screen and  (min-width: 300px){
+  body {
+   font-size: 20px;
+  }
   .grid {
     width:100vw;
     min-height:100vh;
@@ -63,6 +66,7 @@ body {
     grid-template-rows: repeat(8,12%);
     /* justify-content: center; */
     padding-top: 20px;
+    font-size: 2rem;
   }
   .out {
     padding: 10px;
