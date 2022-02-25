@@ -55,16 +55,21 @@ body {
 
 
 @media only screen and  (max-width: 650px){
+  body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
   .grid {
     width:100vw;
-    min-height:100vh;
-    background-color: yellow;
+    height: 95vh;
+    /* background-color: yellow; */
     grid-template-columns: 21% 21% 21% 21%;
     grid-template-rows: repeat(8,12%);
-    padding-top: 20px;
+    /* padding-top: 20px;   */
   }
   .out {
     padding: 10px;
-    height: 75px;
   }
 }
