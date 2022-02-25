@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+body {
+    background-color:rgba(252, 217, 250,0.5);
+
+
+}
+.grid {
+  display: grid;
+  grid-template-columns: 80px 80px 80px 80px;
+  grid-template-rows: repeat(8,50px);
+  justify-content:center;
+  /* width: 560px; */
+}
+
+.grid {
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+
+.grid > button  {
+  box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
+    font-size: 22px;
+}
+
+.grid > button:hover {
+  background-color: black;
+  color: white;
+}
+
+.output {
+  font-size: 25px; }
+  /* grid-column-start: 1;
+  grid-column-end:5;
+  background-color: white; */
+
+.out {
+  grid-column-start: 1;
+  grid-column-end:5;
+  background-color: #001133;
+  color: white;
+  /* font-size: 18px; */
+  text-align: right;
+  padding: 2px;
+}
+
+.equals{
+  grid-row-start:7;
+  grid-row-end:8;
+  grid-column-start:3;
+  grid-column-end:5;
+  box-shadow: 4.0px 8.0px 8.0px rgb(206, 208, 240);
+}
